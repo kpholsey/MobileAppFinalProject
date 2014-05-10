@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/camera"
+        android:orderInCategory="1"
+        android:showAsAction="never"
+        android:title="@string/camera"/>
+     <item
+        android:id="@+id/gallery"
+        android:orderInCategory="2"
+        android:showAsAction="never"
+        android:title="@string/gallery"/>
+    <item
+        android:id="@+id/action_saved"
+        android:icon="@drawable/ic_action_save"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/saved_menu_label" />
+
+</menu>

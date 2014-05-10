@@ -1,0 +1,239 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".DetailedNameActivity" >
+
+    <TextView
+        android:id="@+id/textViewDetailName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name_detailed_name_label"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/textViewNameBody"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/textViewDetailRationale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rationale_detailed_name_label"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/textViewRationaleBody"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/imageViewDBTM"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:src="@drawable/tmlogo" />
+
+        <TextView
+            android:id="@+id/textViewDetailTM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:text="@string/trademark_detailed_name_label"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/textViewClickable1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/clickable_label"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="8sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewTMBody"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/imageViewDBDomain"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:src="@drawable/domain" />
+
+        <TextView
+            android:id="@+id/textViewDetailDomain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:text="@string/domain_detailed_name_label"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/textViewClickable2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/clickable_label"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="8sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textViewDotCom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dotcom_detailed_name_label"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#0000FF" />
+
+        <TextView
+            android:id="@+id/textViewBodyComResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/textViewDotNet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="@string/dotnet_detailed_name_label"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#0000FF" />
+
+        <TextView
+            android:id="@+id/textViewBodyNetResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewDomainStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/domain_status_detailed_name_label"
+        android:textSize="8sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:src="@drawable/twitter" />
+
+        <TextView
+            android:id="@+id/textViewDetailTwitter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/twitter_detailed_name_label"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewTwitterBody"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/imageViewDBTwitter"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:src="@drawable/facebook" />
+
+        <TextView
+            android:id="@+id/textViewDetailFacebook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/facebook_detailed_name_label"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewFacebookBody"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/detailBackbutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="@string/screen_exit_button_label" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/detailBackbutton"
+            android:layout_alignParentLeft="true" >
+
+            <ImageView
+                android:id="@+id/imageViewSave"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:src="@drawable/save" />
+
+            <ImageView
+                android:id="@+id/imageViewCloud"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:src="@drawable/cloud" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

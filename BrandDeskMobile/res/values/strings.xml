@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Brand Desk</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_intro">Introduction</string>
+    <string name="text_view_intro">Brand Desk Mobile is a simple Android application that allow you to create 
+        name candidates for new companies, products, and services.  Feel free to add your names along with 
+        your rationale.  Brand Desk will then screen those names for trademark, domain, and social media 
+        username/URL availability.  You can also store your favorite names for later viewing.</string>
+    <string name="view_saved_button_label">View Saved</string>
+    <string name="add_button_label">Add Names</string>
+    <string name="title_activity_add">Add Your Name</string>
+    <string name="name_label">Name:</string>
+    <string name="rationale_label">Naming Rationale:</string>
+    <string name="reset_button_label">Clear Names</string>
+    <string name="exit_button_label">Exit</string>
+    <string name="add_names_button_label">Add</string>
+    <string name="screen_button_label">Screen</string>
+    <string name="title_activity_screen">Results</string>
+    <string name="screen_text_label">Preliminary Screening Results:</string>
+    <string name="name_column_label">Name:</string>
+    <string name="screen_exit_button_label">Back</string>
+    <string name="title_activity_detailed_name">Name Details</string>
+    <string name="header_detailed_name_label">Detailed Name Info:</string>
+    <string name="name_detailed_name_label">Name:</string>
+    <string name="rationale_detailed_name_label">Rationale:</string>
+    <string name="trademark_detailed_name_label">Trademark Availability:</string>
+    <string name="domain_detailed_name_label">Domain Availability:</string>
+    <string name="twitter_detailed_name_label">Twitter Screenname Availability:</string>
+    <string name="facebook_detailed_name_label">Facebook URL Availability:</string>
+    <string name="dotcom_detailed_name_label">.COM:</string>
+    <string name="dotnet_detailed_name_label">.NET:</string>
+    <string name="dotcom_db_name_label">.COM</string>
+    <string name="dotnet_db_name_label">.NET</string>
+    <string name="domain_status_detailed_name_label">Taken: The domain is already registered.\nUnavailable: Registration 
+        of the domain isn\'t permitted, e.g. foo.uk.\nMaybe: The TLD is likely wildcarded, so you\'ll need to check 
+        manually.\nTLD: the item is a TLD, e.g. com or io.</string>
+    <string name="clickable_label">*clickable</string>
+    <string name="clear_fields_label">Clear Fields</string>
+    <string name="title_activity_view_saved">Saved Names</string>
+    <string name="view_saved_header_label">Saved Names with Screening Results</string>
+    <string name="view_saved_delete_all_button_label">Delete All</string>
+    <string name="view_saved_back_button_label">Back</string>
+    <string name="title_activity_saved_name_detail">Saved Name with Detail</string>
+    <string name="saved_menu_label">View Saved Names</string>
+    <string name="camera">Take a Picture</string>
+    <string name="gallery">View Gallery</string>
+
+</resources>
